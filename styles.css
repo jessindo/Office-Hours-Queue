@@ -1,0 +1,91 @@
+/* Homepage text */
+.header {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+/*  resize: vertical;
+*//*  overflow: auto;
+*/
+}
+
+/*.bg-light {
+  background-color: #FBD1A2!important;
+}*/
+
+/*h1 {
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}*/
+
+/*.vertical-center {
+  min-height: 100%;   Fallback for browsers do NOT support vh unit 
+  min-height: 100vh;*/ /* These two lines are counted as one :-)       */
+/*
+  display: flex;
+  align-items: center;
+}
+*/
+
+h1, th {
+  font-family: 'Montserrat', sans-serif; 
+}
+label, a, td {
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  margin: 5px;
+  padding: 5px;
+}
+
+.data-table {
+  padding-left:10px; 
+  padding-top: 25px;
+}
+
+.data-table table 
+{ 
+  border-collapse:collapse; 
+  border:1px solid #ddd;
+  width:100%;
+}
+
+.a-inside { 
+  padding:4px 10px;
+  border:1px solid #fff;
+  text-decoration:none;
+}
+
+.a-inside.view {
+  background-color:#6599FF;
+  color:#fff;
+}
+
+.a-inside.delete {
+  background-color:#D23641;
+  color:#fff;
+}
+.a-inside.edit {
+  background-color:#00CC00;
+  color:#fff;
+}
+
+.clicked {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgba(0,0,0,0.5);
+}
+
