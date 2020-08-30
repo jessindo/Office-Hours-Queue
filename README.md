@@ -7,7 +7,6 @@
 
 ## To Run:
 1. Create your own config.php file with the following template
-
 ```
 <?php
 session_start();
@@ -17,5 +16,4 @@ define('DB_PASS', '');
 define('DB_NAME', '');
 ?>
 ```
-
 2. Add your database host, user, password and name.
